@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 #top{
@@ -82,4 +83,20 @@ header{
     font-size: 12px;
 }
 
+.genres{
+    width: 100%;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+}
+
+.genres ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+
+.genres ul li{
+    margin: 20px;
+}
 
