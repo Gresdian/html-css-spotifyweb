@@ -10,10 +10,6 @@
     background-color: blueviolet;
 }
 
-#bottom{
-    height: 75px;
-    background-color: red;
-}
 
 .top-content{
     display: flex;
@@ -94,9 +90,40 @@ header{
     display: flex;
     list-style: none;
     flex-direction: row;
+    gap: 20px;
 }
 
-.genres ul li{
-    margin: 20px;
+
+#bottom{
+    height: 75px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.song{
+    height: 30px;
+    width: 50px;
+    background-color: yellow;
+}
+
+.play-bar{
+    height: 30px;
+    width: 90px;
+    background-color: yellow;
+}
+
+.volume{
+    height: 30px;
+    width: 50px;
+    background-color: yellow;
+}
+
+
+@media screen and (max-width:991px) {
+    .genres ul {
+        flex-wrap: wrap;
+    }
+    
+}
