@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <div id="top">
@@ -13,26 +14,37 @@
                 <div class="logo">
                     <img src="./img/logo.svg" alt="logo">
                 </div>
-                <div class="menu margin-10">
+                <div class="menu">
                     <ul>
-                        <li>Home</li>
-                        <li>Cerca</li>
-                        <li>La tua libreria</li>
+                        <li class="d-flex align-center margin-3"><img class="icon" src="./img/home.svg" alt="">Home</li>
+                        <li class="d-flex align-center margin-3"><img class="icon" src="./img/search.svg" alt="">Cerca</li>
+                        <li class="d-flex align-center margin-3"><img class="icon" src="./img/libreria.svg" alt="">La tua libreria</li>
                     </ul>
                 </div>
                 <div class="playlist margin-10">
-                    <ul>
-                        <li>Crea Playlist</li>
-                        <li>Nuova Playlist</li>
-                        <li>Nuova Playlist</li>
-                        <li>Nuova Playlist</li>
-                        <li>Nuova Playlist</li>
-                        <li>Nuova Playlist</li>
-                        <li>Nuova Playlist</li>
-                        <li>Nuova Playlist</li>
+                    <span class="margin-3"><strong>PLAYLIST</strong></span>
+                    <span class="margin-3 d-block"><img class="icon" src="./img/plus-icon.png" alt="plus-icon">Crea Playlist</span>
+                    <ul class="list-playlist">
+                        <li class="margin-3">Nuova Playlist</li>
+                        <li class="margin-3">Nuova Playlist</li>
+                        <li class="margin-3">Nuova Playlist</li>
+                        <li class="margin-3">Nuova Playlist</li>
+                        <li class="margin-3">Nuova Playlist</li>
+                        <li class="margin-3">Nuova Playlist</li>
+                        <li class="margin-3">Nuova Playlist</li>
                     </ul>
                 </div>
-                <div class="foot-sidebar"></div>
+                <div class="foot-sidebar">
+                    <div class="d-flex">
+                        <img class="download" src="./img/download.svg" alt="download">
+                        <span>Installa App</span>
+                    </div>
+                    <hr>
+                    <div class="user d-flex align-center">
+                        <div class="circle"><img class="profile" src="./img/profile.svg" alt="profile"></div>
+                        <span><strong>Jhon Doe</strong></span>
+                    </div>
+                </div>
             </div>
             <div class="content">
                 <header>
