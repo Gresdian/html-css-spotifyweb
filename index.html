@@ -17,27 +17,27 @@
                 <div class="menu">
                     <ul>
                         <li class="d-flex align-center margin-3"><img class="icon" src="./img/home.svg" alt="">Home</li>
-                        <li class="d-flex align-center margin-3"><img class="icon" src="./img/search.svg" alt="">Cerca</li>
-                        <li class="d-flex align-center margin-3"><img class="icon" src="./img/libreria.svg" alt="">La tua libreria</li>
+                        <li class="d-flex align-center margin-3 filter"><img class="icon" src="./img/search.svg" alt="">Cerca</li>
+                        <li class="d-flex align-center margin-3 filter"><img class="icon" src="./img/libreria.svg" alt="">La tua libreria</li>
                     </ul>
                 </div>
                 <div class="playlist margin-10">
-                    <span class="margin-3"><strong>PLAYLIST</strong></span>
-                    <span class="margin-3 d-block"><img class="icon" src="./img/plus-icon.png" alt="plus-icon">Crea Playlist</span>
+                    <span class="margin-3 filter"><strong>PLAYLIST</strong></span>
+                    <span class="margin-3 d-block filter"><img class="icon" src="./img/plus-icon.png" alt="plus-icon">Crea Playlist</span>
                     <ul class="list-playlist">
-                        <li class="margin-3">Nuova Playlist</li>
-                        <li class="margin-3">Nuova Playlist</li>
-                        <li class="margin-3">Nuova Playlist</li>
-                        <li class="margin-3">Nuova Playlist</li>
-                        <li class="margin-3">Nuova Playlist</li>
-                        <li class="margin-3">Nuova Playlist</li>
-                        <li class="margin-3">Nuova Playlist</li>
+                        <li class="margin-3 filter">Nuova Playlist</li>
+                        <li class="margin-3 filter">Nuova Playlist</li>
+                        <li class="margin-3 filter">Nuova Playlist</li>
+                        <li class="margin-3 filter">Nuova Playlist</li>
+                        <li class="margin-3 filter">Nuova Playlist</li>
+                        <li class="margin-3 filter">Nuova Playlist</li>
+                        <li class="margin-3 filter">Nuova Playlist</li>
                     </ul>
                 </div>
                 <div class="foot-sidebar">
                     <div class="d-flex">
                         <img class="download" src="./img/download.svg" alt="download">
-                        <span>Installa App</span>
+                        <span class="filter">Installa App</span>
                     </div>
                     <hr>
                     <div class="user d-flex align-center">
@@ -54,12 +54,12 @@
                     <div class="container">
                         <div class="genres">
                             <ul>
-                                <li>IN EVIDENZA</li>
-                                <li>PODCAST</li>
-                                <li>CLASSIFICHE</li>
-                                <li>GENERI E MOOD</li>
-                                <li>NUOVE USCITE</li>
-                                <li>SCOPRI</li>
+                                <li class="filter underline">IN EVIDENZA</li>
+                                <li class="filter">PODCAST</li>
+                                <li class="filter">CLASSIFICHE</li>
+                                <li class="filter">GENERI E MOOD</li>
+                                <li class="filter">NUOVE USCITE</li>
+                                <li class="filter">SCOPRI</li>
                             </ul>
                         </div>
                         <h1>Recently played</h1>
@@ -67,32 +67,32 @@
                             <div class="col d-flex flex-column align-center">
                                 <img class="album w-100" src="./img/metal_lifting.jpg" alt="metal">
                                 <h2 class="margin-10">Heavy Metal</h2>
-                                <span>subtitle</span>
+                                <span class="filter">subtitle</span>
                             </div>
                             <div class="col d-flex flex-column align-center">
                                 <img class="album w-100" src="./img/stranger.jpeg" alt="strangerthings">
                                 <h2 class="margin-10">Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</h2>
-                                <span>subtitle</span>
+                                <span class="filter">subtitle</span>
                             </div>
                             <div class="col d-flex flex-column align-center">
                                 <img class="album w-100" src="./img/aquietplace.jpeg" alt="aquietplace">
                                 <h2 class="margin-10">A quiet place</h2>
-                                <span>subtitle</span>
+                                <span class="filter">subtitle</span>
                             </div>
                             <div class="col d-flex flex-column align-center">
                                 <img class="album w-100" src="./img/split.jpeg" alt="split">
                                 <h2 class="margin-10">Split</h2>
-                                <span>subtitle</span>
+                                <span class="filter">subtitle</span>
                             </div>
                             <div class="col d-flex flex-column align-center">
                                 <img class="album w-100" src="./img/cure.jpeg" alt="cureofwellness">
                                 <h2 class="margin-10  w-120">A cure for wellness</h2>
-                                <span>subtitle</span>
+                                <span class="filter">subtitle</span>
                             </div>
                             <div class="col d-flex flex-column align-center">
                                 <img class="album w-100" src="./img/sinister.jpeg" alt="sinister">
                                 <h2 class="margin-10">Sinister</h2>
-                                <span>subtitle</span>
+                                <span class="filter">subtitle</span>
                             </div>
                         </div>
                         <h1>Creato per John Doe</h1>
@@ -101,10 +101,12 @@
                             <div class="col d-flex flex-column align-center">
                                 <img class="album w-100" src="./img/radar.jpeg" alt="radar">
                                 <h2 class="margin-10">Release Radar</h2>
+                                <span class="filter">subtitle</span>
                             </div>
                             <div class="col d-flex flex-column align-center">
                                 <img class="album w-100" src="./img/mixdaily.jpeg" alt="dailymix">
                                 <h2 class="margin-10">Daily mix 1</h2>
+                                <span class="filter">subtitle</span>
                             </div>
                         </div>
                         <h1>Artisti pi&uacute; popolari</h1>
@@ -128,7 +130,7 @@
         <div class="song">
             <div class="d-flex align-center">
                 <img class="reproduced" src="./img/sinister.jpeg" alt="sinister">
-                <p><strong>Sinister</strong><br>Brano Nome</p>
+                <p class="filter"><strong>Sinister</strong><br>Brano Nome</p>
                 <div class="prefer d-flex">
                     <div><img class="right" src="./img/heart.png" alt="hearts"></div>
                     <div><img class="left" src="./img/folder.png" alt="folders"></div>
